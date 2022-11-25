@@ -1,0 +1,42 @@
+body {
+  background-color: skyblue;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 800px;
+  display: none;
+  z-index: 0;
+}
+
+
+
+
+
+
+#CanTouch {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 800px;
+  display: none;
+  z-index: 3;
+}
+
+#CanTouchBelugaImage {
+  display: none;
+}
+
+.CanTouchBelugaImageClass {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
