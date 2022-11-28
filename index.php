@@ -27,5 +27,5 @@
   <script src="./js/glfx.js"></script>
   <script src="./js/jquery.js"></script>
   <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-  <script src="./js/main1.js?<?php echo date('Ymd-His'); ?>"></script>
+  <script src="./js/main.js?<?php echo date('Ymd-His'); ?>"></script>
 </html>
