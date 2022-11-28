@@ -19,20 +19,20 @@ GIMPを使って、触れる部分のパス（ファイルやURLの意味のパ�
 
 4.
 index.phpの編集をします。
-<div class="wrapper">
-  <img id="background" src="./images/background/Beluga.png" />
-      
-  <canvas id ="CanTouchBeluga" width="694" height="800"></canvas>
-  <img id="CanTouchBelugaImage" src="./images/canTouch/CanTouchBeluga.png" alt="">
-</div>
+<div class="wrapper">  
+  <img id="background" src="./images/background/Beluga.png" />  
+        
+  <canvas id ="CanTouchBeluga" width="694" height="800"></canvas>  
+  <img id="CanTouchBelugaImage" src="./images/canTouch/CanTouchBeluga.png" alt="">  
+</div>  
 の画像のパス（ファイルのパスの意味です）を入力し、canvasのwidthとheightを指定します。
 widthとheightはMacならプレビュー.appから取得すると良いでしょう。
 
 読み込むJavaScriptは全部で5つです。
-<script src="./js/glfx.js"></script>
-<script src="./js/jquery.js"></script>
-<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="./js/main.js?<?php echo date('Ymd-His'); ?>"></script>
+<script src="./js/glfx.js"></script>  
+<script src="./js/jquery.js"></script>  
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>  
+<script src="./js/main.js?<?php echo date('Ymd-His'); ?>"></script>  
 コードを編集した時にすぐにブラウザで反映されるよう、クエリ（?<?php ~ ?>）を用いています。
 （このクエリを利用するためにphpを使用しました。）
 glfx.jsは画像を歪ませる処理をしてくれるライブラリです。
@@ -43,12 +43,12 @@ main.jsは画像を歪ませる処理とカーソルと画像の当たり判定�
 
 5.
 CSSはこのベルーガの例では
-.CanTouchBelugaImageClass {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-}
+.CanTouchBelugaImageClass {  
+  position: absolute;  
+  left: 0px;  
+  top: 0px;  
+  z-index: 1;  
+}  
 となっています。
 このCanTouchBelugaImageClassは歪ませた画像に付随しているクラスとなっています。
 これはmain.jsのsetCanvas_and_ReproTouchCanTouchBeluga（）関数でクラスを付加しています。
