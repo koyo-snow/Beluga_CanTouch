@@ -30,7 +30,7 @@ index.phpの編集をします。<br>
 の画像のパス（ファイルのパスの意味です）を入力し、canvasのwidthとheightを指定します。<br>
 widthとheightはMacならプレビュー.appから取得すると良いでしょう。<br>
 <br>
-読み込むJavaScriptは全部で5つです。<br>
+読み込むJavaScriptは全部で4つです。<br>
 <script src="./js/glfx.js"></script><br>
 <script src="./js/jquery.js"></script><br>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script><br>
